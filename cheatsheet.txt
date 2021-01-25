@@ -1,0 +1,11 @@
+touch .gitignore
+git config --global user.name Ananta
+git config --global user.email "example@gmail.com"
+git init
+git add .
+git commit -m "Added cheetsheet"
+git status  //just to see the status
+ssh-keygen -t ed25519 -C "example@gmail.com"
+cat ~/.ssh/id_rsa.pub[paste ssh key]
+git remote add origin
+git push origin master
